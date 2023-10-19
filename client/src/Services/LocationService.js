@@ -1,7 +1,6 @@
 import axios from "axios";
 
 class LocationService {
-    constructor() {}
     async getUserLocation() {
         //filter-in-iran
         // if(!this.isLocationSupported) {
